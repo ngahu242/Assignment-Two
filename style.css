@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    background-color: #007bff;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+    color: #d4d4d4 !important;
+}
+
+#about {
+    background-color: #f9f9f9;
+    padding: 4rem 1rem;
+}
+
+#about h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+#about .btn-dark, #about .btn-primary {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+}
+
+#about .btn-dark:hover {
+    background-color: #555;
+}
+
+#about .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#education, #skills {
+    padding: 3rem 1rem;
+}
+
+#education h2, #skills h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.list-group-item {
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    background-color: #f4f4f4;
+    border-left: 5px solid #007bff;
+}
+
+#contact {
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+.profile-picture{
+    width: 100px;
+    margin-bottom: 10px;
+    border: 3px solid #007bff;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    vertical-align: middle;
+}
+.github, .linkedin{
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin: 5px 20px;
+    letter-spacing: 2px;
+}
+.education{
+    padding-top: -80px;
+}
+.social-media{
+    width: 20px;
+}
